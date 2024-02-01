@@ -733,7 +733,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('wagamamahjong-557eaad4f26d061a_bg.wasm', import.meta.url);
+        input = new URL('wagamamahjong-71dc07c47c43360c_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 
