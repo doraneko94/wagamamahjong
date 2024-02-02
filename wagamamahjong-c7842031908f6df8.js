@@ -686,12 +686,12 @@ function __wbg_get_imports() {
         const ret = wasm.memory;
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper486 = function(arg0, arg1, arg2) {
-        const ret = makeClosure(arg0, arg1, 180, __wbg_adapter_24);
+    imports.wbg.__wbindgen_closure_wrapper505 = function(arg0, arg1, arg2) {
+        const ret = makeClosure(arg0, arg1, 191, __wbg_adapter_24);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper668 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 247, __wbg_adapter_27);
+    imports.wbg.__wbindgen_closure_wrapper687 = function(arg0, arg1, arg2) {
+        const ret = makeMutClosure(arg0, arg1, 258, __wbg_adapter_27);
         return addHeapObject(ret);
     };
 
@@ -733,7 +733,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('wagamamahjong-71dc07c47c43360c_bg.wasm', import.meta.url);
+        input = new URL('wagamamahjong-c7842031908f6df8_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 
